@@ -1,23 +1,23 @@
 
 body {
     margin: 0;
-    min-width: 960px;
-    min-height: 1150px;
+    min-width: 1000px;
+    min-height: 1650px;
     position: relative;
-    background-color: #fff8ed;
-    color: #35291f;
+    background-color: #fff8f3;
+    color: #49352f;
     font-family: Arial, sans-serif;
     font-size: 16px;
 }
 
-/* Main heading area */
+/* Website heading */
 header {
     position: absolute;
     top: 25px;
     left: 40px;
     width: 850px;
     padding: 20px;
-    background-color: #b8432e;
+    background-color: #b96770;
     color: white;
     border-radius: 10px;
 }
@@ -31,7 +31,7 @@ header p {
     font-size: 18px;
 }
 
-/* Navigation links */
+/* Navigation menu */
 nav {
     position: absolute;
     top: 175px;
@@ -44,91 +44,100 @@ nav a {
     padding: 10px;
     margin-right: 8px;
     margin-bottom: 8px;
-    background-color: #38734b;
+    background-color: #785548;
     color: white;
     text-decoration: none;
     border-radius: 5px;
 }
 
 nav a:hover {
-    background-color: #245335;
+    background-color: #593c32;
     text-decoration: underline;
 }
 
-/* Introduction */
-.intro {
+/* Welcome section */
+.welcome {
     position: absolute;
     top: 235px;
     left: 40px;
     width: 850px;
     padding: 20px;
-    background-color: #f6e2bd;
-    border-left: 6px solid #d18b32;
+    background-color: #f7e4dc;
+    border-left: 6px solid #b96770;
     border-radius: 5px;
 }
 
-/* Food topic sections */
-.topic {
+/* Shared section styling */
+.section {
     position: absolute;
     left: 40px;
     width: 850px;
     padding: 15px 20px;
+    border: 1px solid #e7d3c8;
     border-radius: 8px;
-    border: 1px solid #e3d2bb;
-}
-
-.topic h2,
-.intro h2 {
-    color: #a43b27;
-    margin-top: 0;
-}
-
-.topic p {
     line-height: 1.5;
 }
 
-.topic a {
-    color: #245d3b;
-    font-weight: bold;
+.section h2,
+.welcome h2 {
+    color: #a34f59;
+    margin-top: 0;
 }
 
-.topic a:hover {
-    color: #b8432e;
+.section h3 {
+    color: #785548;
 }
 
-/* Position each topic separately */
-.cuisine {
-    top: 405px;
+.section li {
+    margin-bottom: 8px;
+}
+
+/* Featured recipes */
+.recipes {
+    top: 400px;
     background-color: #ffffff;
 }
 
-.healthy {
-    top: 555px;
-    background-color: #e6f2df;
+/* Baking tips */
+.tips {
+    top: 970px;
+    background-color: #f8e6eb;
 }
 
-.dessert {
-    top: 705px;
-    background-color: #f9e4e8;
+/* Baking equipment */
+.essentials {
+    top: 1160px;
+    background-color: #f8edda;
 }
 
-.cooking {
-    top: 855px;
-    background-color: #f6e8d4;
+/* Decorating ideas */
+.decorating {
+    top: 1370px;
+    background-color: #eaf0e1;
 }
 
-/* Footer */
+/* Links inside sections */
+.section a {
+    color: #87424b;
+    font-weight: bold;
+}
+
+.section a:hover {
+    color: #b96770;
+}
+
+/* Bottom of the page */
 footer {
     position: absolute;
-    top: 1030px;
+    top: 1570px;
     left: 40px;
     width: 850px;
     padding: 15px 20px;
-    background-color: #35291f;
+    background-color: #49352f;
     color: white;
     border-radius: 8px;
 }
 
 footer a {
-    color: #ffe0a8;
+    color: #ffd9df;
 }
