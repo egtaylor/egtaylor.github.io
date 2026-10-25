@@ -1,0 +1,134 @@
+
+body {
+    margin: 0;
+    min-width: 960px;
+    min-height: 1150px;
+    position: relative;
+    background-color: #fff8ed;
+    color: #35291f;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Main heading area */
+header {
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    width: 850px;
+    padding: 20px;
+    background-color: #b8432e;
+    color: white;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Navigation links */
+nav {
+    position: absolute;
+    top: 175px;
+    left: 40px;
+    width: 900px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    background-color: #38734b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #245335;
+    text-decoration: underline;
+}
+
+/* Introduction */
+.intro {
+    position: absolute;
+    top: 235px;
+    left: 40px;
+    width: 850px;
+    padding: 20px;
+    background-color: #f6e2bd;
+    border-left: 6px solid #d18b32;
+    border-radius: 5px;
+}
+
+/* Food topic sections */
+.topic {
+    position: absolute;
+    left: 40px;
+    width: 850px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: 1px solid #e3d2bb;
+}
+
+.topic h2,
+.intro h2 {
+    color: #a43b27;
+    margin-top: 0;
+}
+
+.topic p {
+    line-height: 1.5;
+}
+
+.topic a {
+    color: #245d3b;
+    font-weight: bold;
+}
+
+.topic a:hover {
+    color: #b8432e;
+}
+
+/* Position each topic separately */
+.cuisine {
+    top: 405px;
+    background-color: #ffffff;
+}
+
+.healthy {
+    top: 555px;
+    background-color: #e6f2df;
+}
+
+.dessert {
+    top: 705px;
+    background-color: #f9e4e8;
+}
+
+.cooking {
+    top: 855px;
+    background-color: #f6e8d4;
+}
+
+/* Footer */
+footer {
+    position: absolute;
+    top: 1030px;
+    left: 40px;
+    width: 850px;
+    padding: 15px 20px;
+    background-color: #35291f;
+    color: white;
+    border-radius: 8px;
+}
+
+footer a {
+    color: #ffe0a8;
+}
