@@ -4,7 +4,7 @@ body {
     min-width: 1000px;
     min-height: 1650px;
     position: relative;
-    background-image: url('brownbuttercookie.jpg'); 
+    background-image: brownbuttercookie.jpg; 
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center; 
